@@ -1,4 +1,5 @@
 # Retrieve-PDB-Structure
+This code performs a search on the RCSB Protein Data Bank (PDB) and retrieves information about protein structures that match specific criteria. It then downloads the corresponding mmCIF files for each protein and extracts specific data from those files. Finally, it stores the extracted data in an Excel file.
 Importing libraries: This section imports the necessary libraries for the code execution, including RCSB Search API, Bio.PDB, os, and pandas.
 
 1-Search process simulation: This section defines several queries to simulate the search process. It creates TextQuery and AttributeQuery objects to specify search conditions such as the presence of a transcription factor, the experimental method being X-ray diffraction, resolution not exceeding 3.0, containing the phrase "sodium" in the chemical compound name, and originating from the species Homo sapiens. The queries are combined and executed, and the number of matching structures is printed.
